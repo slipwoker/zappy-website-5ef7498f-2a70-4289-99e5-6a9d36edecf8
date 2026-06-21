@@ -1,0 +1,82 @@
+# recruit3 — Generative Engine Optimization Map
+
+> create me website for my recruitment website
+
+---
+
+## Pages
+
+### Home
+https://recruit3-5ef7498f.zappy5.app
+Need reliable temporary staffing agencies? recruit3 connects you with pre-vetted professionals through agile recruitment solutions. Scale your workforce today.
+
+### Solutions
+https://recruit3-5ef7498f.zappy5.app/solutions
+Explore temporary staffing services built for speed and quality. From on-demand hires to managed teams, recruit3 delivers the talent you need, when you need it.
+
+### About
+https://recruit3-5ef7498f.zappy5.app/about
+Discover how recruit3 outpaces traditional temporary staffing companies with data-driven matching and a people-first approach. Your growth partner awaits.
+
+### Contact
+https://recruit3-5ef7498f.zappy5.app/contact
+Ready to hire? Contact recruit3, the temporary staffing agencies partner that prioritizes your goals. Let&#39;s fill your roles with top-tier talent today.
+
+### Thank You | recruit3
+https://recruit3-5ef7498f.zappy5.app/thank-you
+Thank you for contacting our temporary staffing agencies. Your message has been received and our spherion staffing & recruiting team will respond shortly.
+
+## Legal & Policy
+
+### Privacy Policy
+https://recruit3-5ef7498f.zappy5.app/privacy
+Information about how user data is collected, stored, and protected.
+
+### Terms & Conditions
+https://recruit3-5ef7498f.zappy5.app/terms
+Legal terms describing service usage, rights, and policies.
+
+### Accessibility Statement
+https://recruit3-5ef7498f.zappy5.app/accessibility
+Information about WCAG compliance and accessibility features.
+
+---
+
+## How to Contact Us
+
+- (No contact details configured yet.)
+
+### Contact form
+- URL: https://recruit3-5ef7498f.zappy5.app/contact
+- Endpoint: https://recruit3-5ef7498f.zappy5.app/api/email/contact-form
+- Method: POST
+- Content-Type: application/json
+- Fields:
+  - `fullName` (text)
+  - `email` (email)
+  - `phone` (tel)
+  - `message` (textarea)
+  - `privacy_consent` (checkbox)
+
+---
+
+# Business Context (for LLM understanding)
+
+## About recruit3
+create me website for my recruitment website
+
+## Target Audience
+- Corporate Hiring Managers
+- Tech Startup Founders
+- Remote Work Advocates
+
+## Industry
+Recruitment & Staffing
+
+---
+
+# Machine-readable feeds
+
+- Sitemap (XML): https://recruit3-5ef7498f.zappy5.app/sitemap.xml
+- Robots: https://recruit3-5ef7498f.zappy5.app/robots.txt
+- Flattened page text (for LLMs): https://recruit3-5ef7498f.zappy5.app/llms-full.txt
