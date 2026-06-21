@@ -237,10 +237,10 @@
   
   <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
   <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700&amp;display=swap">
-  <script defer data-zappy-gsap="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
-  <script defer data-zappy-gsap="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
+  <script defer="" data-zappy-gsap="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/gsap.min.js"></script>
+  <script defer="" data-zappy-gsap="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js" src="https://cdnjs.cloudflare.com/ajax/libs/gsap/3.12.5/ScrollTrigger.min.js"></script>
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin="">
   <style>
     .skip-link { position: absolute; top: 0; left: 0; transform: translateY(-200%); padding: 12px 18px; background: var(--bg-dark, #1a1a1a); color: var(--text-light, #fff); font-weight: 600; border-radius: 0 0 8px 0; z-index: 10000; }
     .skip-link:focus { transform: none; outline: 2px solid var(--ring, #fff); outline-offset: 2px; }
@@ -262,6 +262,259 @@
     <script src="https://cdn.jsdelivr.net/npm/vanilla-cookieconsent@3/dist/cookieconsent.umd.js"></script>
     <!-- Mickidum Accessibility Toolbar -->
     <script src="https://cdn.jsdelivr.net/gh/mickidum/acc_toolbar/acctoolbar/acctoolbar.min.js"></script>
+
+<style data-zappy-section-v2-css="true">
+/* V2 Regenerated Section CSS */
+.home-hero-section {
+  background-color: var(--bg-light);
+  color: var(--text-dark);
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  overflow: hidden;
+  position: relative;
+  padding: 0;
+}
+
+.home-hero-section__wrapper {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  width: 100%;
+  min-height: 100vh;
+  max-width: 100%;
+  margin: 0 auto;
+}
+
+/* Left Content Panel */
+.home-hero-section__content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 80px 60px;
+  background-color: #ffffff;
+  position: relative;
+  z-index: 10;
+}
+
+.home-hero-section__content-inner {
+  max-width: 560px;
+  width: 100%;
+}
+
+.home-hero-section__eyebrow {
+  display: inline-block;
+  font-size: 14px;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: var(--accent);
+  margin-bottom: 16px;
+  font-family: 'Inter', sans-serif;
+}
+
+.home-hero-section__headline {
+  font-size: 3rem;
+  font-weight: 800;
+  line-height: 1.2;
+  color: var(--secondary);
+  margin: 0 0 24px 0;
+  font-family: 'Inter', sans-serif;
+  letter-spacing: -0.5px;
+}
+
+.home-hero-section__subtitle {
+  font-size: 1.125rem;
+  font-weight: 400;
+  line-height: 1.7;
+  color: var(--text-muted);
+  margin: 0 0 32px 0;
+  font-family: 'Inter', sans-serif;
+}
+
+.home-hero-section__cta-group {
+  display: flex;
+  align-items: center;
+  gap: 16px;
+  margin-bottom: 48px;
+  flex-wrap: wrap;
+}
+
+/* Button Styles */
+.home-hero-section .btn-primary {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: #ffffff;
+  padding: 12px 24px;
+  font-size: 15px;
+  background: var(--primary);
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s ease, transform 0.2s ease;
+  border: none;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+.home-hero-section .btn-primary:hover {
+  background: linear-gradient(135deg, #1a6bcc 0%, #00b5c8 100%);
+  transform: translateY(-1px);
+}
+
+.home-hero-section .btn-primary svg {
+  width: 16px;
+  height: 16px;
+  transition: transform 0.2s ease;
+}
+
+.home-hero-section .btn-primary:hover svg {
+  transform: translateX(3px);
+}
+
+.home-hero-section .btn-secondary-outline {
+  display: inline-flex;
+  align-items: center;
+  gap: 8px;
+  color: var(--primary);
+  border: 2px solid var(--primary);
+  padding: 12px 24px;
+  font-size: 15px;
+  background: transparent;
+  font-weight: 600;
+  border-radius: 6px;
+  text-decoration: none;
+  transition: background 0.2s ease, color 0.2s ease;
+  cursor: pointer;
+  font-family: 'Inter', sans-serif;
+}
+
+.home-hero-section .btn-secondary-outline:hover {
+  background: var(--primary);
+  color: #ffffff;
+}
+
+/* Stats Band */
+.home-hero-section__stats {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 24px;
+  padding-top: 32px;
+  border-top: 1px solid var(--border-light);
+}
+
+.home-hero-section__stat {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  min-width: 0;
+}
+
+.home-hero-section__stat-icon {
+  width: 32px;
+  height: 32px;
+  color: var(--accent);
+  margin-bottom: 12px;
+  opacity: 0.8;
+}
+
+.home-hero-section__stat-icon svg {
+  width: 100%;
+  height: 100%;
+}
+
+.home-hero-section__stat-value {
+  font-size: 1.5rem;
+  font-weight: 700;
+  color: var(--secondary);
+  line-height: 1.2;
+  margin-bottom: 4px;
+  font-family: 'Inter', sans-serif;
+}
+
+.home-hero-section__stat-label {
+  font-size: 0.875rem;
+  font-weight: 400;
+  color: var(--text-muted);
+  line-height: 1.4;
+  font-family: 'Inter', sans-serif;
+}
+
+/* Right Media Panel */
+.home-hero-section__media {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  min-height: 100vh;
+  overflow: hidden;
+}
+
+.home-hero-section__media img {
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+  aspect-ratio: 3/2;
+  border-radius: 0px;
+  display: block;
+}
+
+/* Responsive Design */
+@media (max-width: 768px) {
+  .home-hero-section {
+    padding-top: 100px;
+  }
+
+  .home-hero-section__wrapper {
+    grid-template-columns: 1fr !important;
+    min-height: auto;
+  }
+
+  .home-hero-section__content {
+    padding: 40px 16px;
+    order: 2;
+  }
+
+  .home-hero-section__content-inner {
+    max-width: 100%;
+  }
+
+  .home-hero-section__headline {
+    font-size: 2.25rem;
+  }
+
+  .home-hero-section__subtitle {
+    font-size: 1rem;
+  }
+
+  .home-hero-section__cta-group {
+    flex-direction: column;
+    align-items: stretch;
+    width: 100%;
+  }
+
+  .home-hero-section .btn-primary,
+  .home-hero-section .btn-secondary-outline {
+    justify-content: center;
+    text-align: center;
+  }
+
+  .home-hero-section__stats {
+    grid-template-columns: 1fr !important;
+    gap: 20px;
+  }
+
+  .home-hero-section__media {
+    min-height: 350px;
+    order: 1;
+  }
+}
+/* ZAPPY_POSTGEN_GUARD_HERO_FONT_CAP:home-hero */
+.hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: min(var(--display-xl, var(--h1, 5rem)), 6rem) !important; line-height: var(--leading-display, 1.05); }
+@media (max-width: 768px) {
+  .hero h1, .hero-section h1, [class*="hero-"] h1, [class~="hero"] h1, .hero .hero-title, .hero-title { font-size: clamp(2rem, 9vw, 3rem) !important; }
+}
+
+</style>
     <link rel="stylesheet" href="/styles.css">
     <script>window.ZAPPY_WEBSITE_ID = "5ef7498f-2a70-4289-99e5-6a9d36edecf8"; window.ZAPPY_API_BASE = "https://api.zappy5.com";</script>
 
@@ -357,16 +610,16 @@
   <nav class="navbar">
   <button class="mobile-toggle" id="mobileToggle" aria-label="Menu">
     <svg class="hamburger-icon" width="24" height="24" viewBox="0 0 24 24" fill="none">
-      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M3 12h18M3 6h18M3 18h18" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
     <svg class="close-icon" width="24" height="24" viewBox="0 0 24 24" fill="none" style="display: none;">
-      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"/>
+      <path d="M18 6L6 18M6 6l12 12" stroke="currentColor" stroke-width="2" stroke-linecap="round"></path>
     </svg>
   </button>
   
   <button class="phone-header-btn" data-phone="[business_phone]" aria-label="Call">
     <svg width="20" height="20" viewBox="0 0 24 24" fill="currentColor">
-      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"/>
+      <path d="M22 16.92v3a2 2 0 0 1-2.18 2 19.79 19.79 0 0 1-8.63-3.07 19.5 19.5 0 0 1-6-6 19.79 19.79 0 0 1-3.07-8.67A2 2 0 0 1 4.11 2h3a2 2 0 0 1 2 1.72 12.84 12.84 0 0 0 .7 2.81 2 2 0 0 1-.45 2.11L8.09 9.91a16 16 0 0 0 6 6l1.27-1.27a2 2 0 0 1 2.11-.45 12.84 12.84 0 0 0 2.81.7A2 2 0 0 1 22 16.92z"></path>
     </svg>
   </button>
 
@@ -840,42 +1093,58 @@
 </script>
   
   <main id="main">
-    <section data-band-index="0" class="home-hero-section" data-layout-spec="Home-hero" data-hero-type="fullscreen-scrim">
-  <div class="editorial-section">
-    <div class="editorial-grid">
-      <!-- START Panel: 60% text content -->
-      <div class="editorial-text" data-reveal>
-        <p class="eyebrow">RECRUITMENT. SOLVED.</p>
-        <h1 class="display-xl">Top Talent.<br>Real Impact.</h1>
-        <h3 class="hero-subtitle">We connect leading companies with exceptional professionals — faster, smarter, and with measurable results that drive your business forward.</h3>
-        <div class="hero-cta-group">
-          <a href="/contact" class="btn-primary">
-            Hire Top Talent
-            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" aria-hidden="true" data-element-type="icon" data-icon-type="svg" class="btn-icon"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+    <section class="home-hero-section" data-layout-spec="Home-hero" data-hero-type="fullscreen-scrim">
+  <div class="home-hero-section__wrapper">
+    <!-- Left Panel: Text Content -->
+    <div class="home-hero-section__content">
+      <div class="home-hero-section__content-inner">
+        <span class="home-hero-section__eyebrow" style="color: #1A1A1A !important">Strategic Talent Acquisition</span>
+        <h1 class="home-hero-section__headline">Find the right people, faster than you thought possible.</h1>
+        <h3 class="home-hero-section__subtitle">We combine deep market insight with a rigorous vetting process to deliver candidates who drive your business forward from day one.</h3>
+        <div class="home-hero-section__cta-group">
+          <a href="#" class="btn btn-primary">
+            Get Started
+            <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" data-element-type="icon" data-icon-type="svg"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
           </a>
-          <a href="/jobs" class="btn-secondary-outline">Find Your Next Role</a>
+          <a href="#" class="btn btn-secondary-outline">Learn More</a>
         </div>
-        <div class="trusted-by-strip">
-          <span class="trusted-label">Trusted by industry leaders</span>
-          <div class="trusted-logos">
-            <span class="brand-wordmark">ACME CORP</span>
-            <span class="brand-wordmark">GLOBAL ENTERPRISE</span>
-            <span class="brand-wordmark">TECH INNOVATIONS</span>
-            <span class="brand-wordmark">PRIME SOLUTIONS</span>
+        <!-- Stats Band inside content for credibility -->
+        <div class="home-hero-section__stats">
+          <div class="home-hero-section__stat">
+            <div class="home-hero-section__stat-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" data-element-type="icon" data-icon-type="svg"><circle cx="12" cy="12" r="10"></circle><polyline points="12 6 12 12 16 14"></polyline></svg>
+            </div>
+            <div class="home-hero-section__stat-value" data-count-up="14" data-count-suffix="d">0d</div>
+            <div class="home-hero-section__stat-label">Average Time-to-Hire</div>
+          </div>
+          <div class="home-hero-section__stat">
+            <div class="home-hero-section__stat-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" data-element-type="icon" data-icon-type="svg"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
+            </div>
+            <div class="home-hero-section__stat-value" data-count-up="250" data-count-suffix="+">0+</div>
+            <div class="home-hero-section__stat-label">Clients Served</div>
+          </div>
+          <div class="home-hero-section__stat">
+            <div class="home-hero-section__stat-icon">
+              <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" data-element-type="icon" data-icon-type="svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
+            </div>
+            <div class="home-hero-section__stat-value" data-count-up="98" data-count-suffix="%">0%</div>
+            <div class="home-hero-section__stat-label">Placement Success Rate</div>
           </div>
         </div>
       </div>
-      <!-- END Panel: 40% full-bleed image -->
-      <figure class="editorial-media">
-        <img loading="eager" fetchpriority="high" data-hero-bg="true" data-placeholder="home-hero-hero-image-1" data-context="Three business professionals — a man with glasses in a dark shirt, a woman in a white blouse standing behind him, and a woman in a dark blazer — gathered around a laptop on a conference table in a modern glass-walled office with a city skyline visible through floor-to-ceiling windows. Composition: eye-level, three-quarter group shot, candid collaborative moment. Framing: fills the END half of the split editorial hero, runs edge-to-edge of its panel. Background: modern glass office interior with city skyline. Treatment: full-bleed background" data-treatment="full-bleed background" data-dominant-color="#c8d4e0" data-aspect-ratio="3:2" alt="Three professionals collaborating around a laptop in a modern glass-walled office" width="1200" height="800" src="/assets/site-home-hero-hero-image-1.webp">
-      </figure>
+    </div>
+
+    <!-- Right Panel: Full-bleed Image -->
+    <div class="home-hero-section__media">
+      <img data-hero-bg="true" data-context="A diverse team of corporate hiring managers and recruiters collaborating around a modern glass table in a bright, contemporary office. They are reviewing candidate profiles on a digital tablet, smiling and engaged. Natural light floods the room, emphasizing a positive and professional hiring partnership." width="600" height="400" src="/assets/recruit3-recruitment-staffing-section-Home-hero-home-hero-image-1.webp" alt="Hiring managers and recruiters collaborating on talent acquisition">
     </div>
   </div>
 </section>
 
 <section data-band-index="1" class="logos-section home-logos-strip-section" data-layout-spec="Home-logos-strip">
   <p class="eyebrow">TRUSTED BY GROWING COMPANIES</p>
-  <div class="logos-grid" data-reveal-stagger>
+  <div class="logos-grid" data-reveal-stagger="">
     <span class="brand-wordmark">Segment</span>
     <span class="brand-wordmark">Ramp</span>
     <span class="brand-wordmark">Brex</span>
@@ -884,7 +1153,7 @@
   </div>
 </section>
 
-<section data-band-index="2" class="home-stats-section statband-section" data-layout-spec="Home-stats" data-reveal>
+<section data-band-index="2" class="home-stats-section statband-section" data-layout-spec="Home-stats" data-reveal="">
   <div class="home-stats-section__container">
     <div class="home-stats-section__grid">
       
@@ -892,10 +1161,10 @@
       <div class="home-stats-section__stat-card">
         <div class="home-stats-section__icon-wrapper">
           <svg data-element-type="icon" data-icon-type="svg" class="home-stats-section__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/>
-            <circle cx="9" cy="7" r="4"/>
-            <path d="M23 21v-2a4 4 0 0 0-3-3.87"/>
-            <path d="M16 3.13a4 4 0 0 1 0 7.75"/>
+            <path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path>
+            <circle cx="9" cy="7" r="4"></circle>
+            <path d="M23 21v-2a4 4 0 0 0-3-3.87"></path>
+            <path d="M16 3.13a4 4 0 0 1 0 7.75"></path>
           </svg>
         </div>
         <p class="statband-line home-stats-section__number"><span data-count-up="250" data-count-suffix="+">0</span></p>
@@ -907,8 +1176,8 @@
       <div class="home-stats-section__stat-card">
         <div class="home-stats-section__icon-wrapper">
           <svg data-element-type="icon" data-icon-type="svg" class="home-stats-section__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <circle cx="12" cy="12" r="10"/>
-            <polyline points="12 6 12 12 16 14"/>
+            <circle cx="12" cy="12" r="10"></circle>
+            <polyline points="12 6 12 12 16 14"></polyline>
           </svg>
         </div>
         <p class="statband-line home-stats-section__number"><span data-count-up="15" data-count-suffix=" Days">0</span></p>
@@ -920,8 +1189,8 @@
       <div class="home-stats-section__stat-card">
         <div class="home-stats-section__icon-wrapper">
           <svg data-element-type="icon" data-icon-type="svg" class="home-stats-section__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/>
-            <polyline points="22 4 12 14.01 9 11.01"/>
+            <path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path>
+            <polyline points="22 4 12 14.01 9 11.01"></polyline>
           </svg>
         </div>
         <p class="statband-line home-stats-section__number"><span data-count-up="96" data-count-suffix="%">0</span></p>
@@ -933,8 +1202,8 @@
       <div class="home-stats-section__stat-card">
         <div class="home-stats-section__icon-wrapper">
           <svg data-element-type="icon" data-icon-type="svg" class="home-stats-section__icon" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round">
-            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"/>
-            <polyline points="17 6 23 6 23 12"/>
+            <polyline points="23 6 13.5 15.5 8.5 10.5 1 18"></polyline>
+            <polyline points="17 6 23 6 23 12"></polyline>
           </svg>
         </div>
         <p class="statband-line home-stats-section__number"><span data-count-up="3" data-count-suffix="x">0</span></p>
@@ -949,7 +1218,7 @@
 <section data-band-index="3" class="home-services-section bento-section" data-layout-spec="Home-services">
   <div class="home-services-container">
     <!-- Editorial Split Header -->
-    <div class="home-services-header" data-reveal>
+    <div class="home-services-header" data-reveal="">
       <div class="home-services-header-start">
         <span class="home-services-eyebrow eyebrow" style="color: #1A1A1A !important">Our Solutions</span>
         <h2 class="home-services-headline">Recruitment Models Built for Your Hiring Goals</h2>
@@ -960,11 +1229,11 @@
     </div>
 
     <!-- Bento Grid of Service Cards -->
-    <div class="bento-grid" data-reveal-stagger>
+    <div class="bento-grid" data-reveal-stagger="">
       <!-- Card 1: Direct Hire (XL) -->
       <article class="bento-tile bento-tile--xl home-services-card">
         <div class="home-services-card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#00b5c8" stroke-width="1.5"><circle cx="12" cy="12" r="10"/><path d="M12 6v6l4 2"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#00b5c8" stroke-width="1.5"><circle cx="12" cy="12" r="10"></circle><path d="M12 6v6l4 2"></path></svg>
         </div>
         <h3 class="home-services-card-title">Direct Hire</h3>
         <p class="home-services-card-desc">Permanent placement for mission-critical roles. We source, screen, and deliver top-tier candidates who align with your long-term vision and company culture.</p>
@@ -974,7 +1243,7 @@
       <!-- Card 2: Contract Staffing (MD) -->
       <article class="bento-tile bento-tile--md home-services-card">
         <div class="home-services-card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#00b5c8" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="9" cy="7" r="4"/><path d="M23 21v-2a4 4 0 0 0-3-3.87"/><path d="M16 3.13a4 4 0 0 1 0 7.75"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#00b5c8" stroke-width="1.5"><path d="M17 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="9" cy="7" r="4"></circle><path d="M23 21v-2a4 4 0 0 0-3-3.87"></path><path d="M16 3.13a4 4 0 0 1 0 7.75"></path></svg>
         </div>
         <h3 class="home-services-card-title">Contract Staffing</h3>
         <p class="home-services-card-desc">Scale your workforce up or down with skilled temporary staffing services. Ideal for project-based needs, seasonal peaks, or interim coverage.</p>
@@ -984,7 +1253,7 @@
       <!-- Card 3: Executive Search (SM) -->
       <article class="bento-tile bento-tile--sm home-services-card">
         <div class="home-services-card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#00b5c8" stroke-width="1.5"><polyline points="20 6 9 17 4 12"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#00b5c8" stroke-width="1.5"><polyline points="20 6 9 17 4 12"></polyline></svg>
         </div>
         <h3 class="home-services-card-title">Executive Search</h3>
         <p class="home-services-card-desc">Confidential C-suite and VP-level placements. Our retained search process identifies transformative leaders who drive measurable business outcomes.</p>
@@ -994,7 +1263,7 @@
       <!-- Card 4: Remote Talent (MD Accent) -->
       <article class="bento-tile bento-tile--md bento-tile--accent home-services-card">
         <div class="home-services-card-icon">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#00b5c8" stroke-width="1.5"><line x1="18" y1="20" x2="18" y2="10"/><line x1="12" y1="20" x2="12" y2="4"/><line x1="6" y1="20" x2="6" y2="14"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="none" stroke="#00b5c8" stroke-width="1.5"><line x1="18" y1="20" x2="18" y2="10"></line><line x1="12" y1="20" x2="12" y2="4"></line><line x1="6" y1="20" x2="6" y2="14"></line></svg>
         </div>
         <h3 class="home-services-card-title">Remote Talent</h3>
         <p class="home-services-card-desc">Access a global pool of vetted remote professionals. We handle compliance, timezone alignment, and cultural fit for distributed teams.</p>
@@ -1003,7 +1272,7 @@
     </div>
 
     <!-- Centered CTA Link -->
-    <div class="home-services-cta-wrapper" data-reveal>
+    <div class="home-services-cta-wrapper" data-reveal="">
       <a href="#" class="home-services-cta-link" style="color: #1A1A1A !important">Explore All Solutions →</a>
     </div>
   </div>
@@ -1012,23 +1281,23 @@
 <section data-band-index="4" class="home-process-section" data-layout-spec="Home-process">
   <div class="home-process-section__container">
     <!-- START Side: Context & CTA -->
-    <div class="home-process-section__start" data-reveal>
+    <div class="home-process-section__start" data-reveal="">
       <span class="home-process-section__eyebrow eyebrow" style="color: #1A1A1A !important">How We Work</span>
       <h2 class="home-process-section__heading">A proven hiring process built on transparency and speed.</h2>
       <p class="home-process-section__body">We know that hiring managers need predictability. Our four-step methodology removes guesswork, aligns with your timelines, and delivers qualified candidates who fit your culture — every time.</p>
       <a href="/process" class="home-process-section__cta btn-text-link" style="color: #1A1A1A !important">
         Learn More About Our Process
-        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-element-type="icon" data-icon-type="svg"><line x1="5" y1="12" x2="19" y2="12"/><polyline points="12 5 19 12 12 19"/></svg>
+        <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-element-type="icon" data-icon-type="svg"><line x1="5" y1="12" x2="19" y2="12"></line><polyline points="12 5 19 12 12 19"></polyline></svg>
       </a>
     </div>
 
     <!-- END Side: Process Steps -->
-    <ol class="home-process-section__steps process-steps" data-reveal-stagger>
+    <ol class="home-process-section__steps process-steps" data-reveal-stagger="">
       <li class="home-process-section__step process-step">
         <div class="home-process-section__step-header">
           <span class="home-process-section__step-num step-num" style="color: #1A1A1A !important">01</span>
           <div class="home-process-section__step-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-element-type="icon" data-icon-type="svg"><circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/></svg>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-element-type="icon" data-icon-type="svg"><circle cx="11" cy="11" r="8"></circle><line x1="21" y1="21" x2="16.65" y2="16.65"></line></svg>
           </div>
         </div>
         <h3 class="home-process-section__step-title">Discover</h3>
@@ -1038,7 +1307,7 @@
         <div class="home-process-section__step-header">
           <span class="home-process-section__step-num step-num" style="color: #1A1A1A !important">02</span>
           <div class="home-process-section__step-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-element-type="icon" data-icon-type="svg"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"/><circle cx="8.5" cy="7" r="4"/><line x1="20" y1="8" x2="20" y2="14"/><line x1="23" y1="11" x2="17" y2="11"/></svg>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-element-type="icon" data-icon-type="svg"><path d="M16 21v-2a4 4 0 0 0-4-4H5a4 4 0 0 0-4 4v2"></path><circle cx="8.5" cy="7" r="4"></circle><line x1="20" y1="8" x2="20" y2="14"></line><line x1="23" y1="11" x2="17" y2="11"></line></svg>
           </div>
         </div>
         <h3 class="home-process-section__step-title">Source</h3>
@@ -1048,7 +1317,7 @@
         <div class="home-process-section__step-header">
           <span class="home-process-section__step-num step-num" style="color: #1A1A1A !important">03</span>
           <div class="home-process-section__step-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-element-type="icon" data-icon-type="svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"/><polyline points="22 4 12 14.01 9 11.01"/></svg>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-element-type="icon" data-icon-type="svg"><path d="M22 11.08V12a10 10 0 1 1-5.93-9.14"></path><polyline points="22 4 12 14.01 9 11.01"></polyline></svg>
           </div>
         </div>
         <h3 class="home-process-section__step-title">Evaluate</h3>
@@ -1058,7 +1327,7 @@
         <div class="home-process-section__step-header">
           <span class="home-process-section__step-num step-num" style="color: #1A1A1A !important">04</span>
           <div class="home-process-section__step-icon">
-            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-element-type="icon" data-icon-type="svg"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"/><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"/></svg>
+            <svg width="24" height="24" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.5" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" data-element-type="icon" data-icon-type="svg"><rect x="2" y="7" width="20" height="14" rx="2" ry="2"></rect><path d="M16 21V5a2 2 0 0 0-2-2h-4a2 2 0 0 0-2 2v16"></path></svg>
           </div>
         </div>
         <h3 class="home-process-section__step-title">Deliver</h3>
@@ -1077,17 +1346,17 @@
       </div>
       <div class="testimonials-header-arrows" aria-label="Testimonial navigation">
         <button class="testimonials-arrow" aria-label="Previous testimonial">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 18 9 12 15 6"></polyline></svg>
         </button>
         <button class="testimonials-arrow" aria-label="Next testimonial">
-          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"><polyline points="9 18 15 12 9 6"></polyline></svg>
         </button>
       </div>
     </header>
-    <div class="testimonials-grid" data-reveal-stagger>
+    <div class="testimonials-grid" data-reveal-stagger="">
       <figure class="testimonial-card">
         <div class="testimonial-quote-icon" aria-hidden="true">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#00b5c8"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#00b5c8"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg>
         </div>
         <blockquote>
           <p>Recruit3 helped us scale our engineering team from 15 to 80 in under six months. The quality of candidates was consistently exceptional, and their understanding of our technical requirements saved us countless hours.</p>
@@ -1102,7 +1371,7 @@
       </figure>
       <figure class="testimonial-card">
         <div class="testimonial-quote-icon" aria-hidden="true">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#00b5c8"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#00b5c8"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg>
         </div>
         <blockquote>
           <p>What sets Recruit3 apart is their speed without sacrificing quality. They filled three critical leadership roles for us in record time, each hire exceeding our expectations and integrating seamlessly into our culture.</p>
@@ -1117,7 +1386,7 @@
       </figure>
       <figure class="testimonial-card">
         <div class="testimonial-quote-icon" aria-hidden="true">
-          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#00b5c8"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"/><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"/></svg>
+          <svg data-element-type="icon" data-icon-type="svg" xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24" fill="#00b5c8"><path d="M3 21c3 0 7-1 7-8V5c0-1.25-.756-2.017-2-2H4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2 1 0 1 0 1 1v1c0 1-1 2-2 2s-1 .008-1 1.031V20c0 1 0 1 1 1z"></path><path d="M15 21c3 0 7-1 7-8V5c0-1.25-.757-2.017-2-2h-4c-1.25 0-2 .75-2 1.972V11c0 1.25.75 2 2 2h.75c0 2.25.25 4-2.75 4v3c0 1 0 1 1 1z"></path></svg>
         </div>
         <blockquote>
           <p>We've worked with multiple temporary staffing agencies, but Recruit3 is the only partner that consistently delivers. Their rigorous vetting process means every candidate presented is a potential hire. They've become an extension of our team.</p>
@@ -1135,7 +1404,7 @@
 </section>
 
 <section data-band-index="6" class="home-final-cta-section cta-section" data-layout-spec="Home-final-cta">
-  <div class="cta-band" data-reveal>
+  <div class="cta-band" data-reveal="">
     <h2>Ready to build a stronger team?</h2>
     <p class="cta-subtitle">Whether you're looking for top-tier permanent hires or reliable temporary staffing, Recruit3 delivers measurable hiring outcomes with speed and precision.</p>
     <div class="cta-row">
